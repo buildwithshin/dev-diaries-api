@@ -1,7 +1,7 @@
 //[SECTION] Dependencies and Modules
 const bcrypt = require('bcrypt');
 const User = require('../models/User');
-const Blog = require("../models/blog");
+const Blog = require('../models/Blog');
 const auth = require('../auth');
 
 const { errorHandler } = auth;
