@@ -2,7 +2,7 @@ const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const Blog = require('../models/Blog');
 const auth = require('../auth');
-const Comment = require('../models/comment');
+const Comment = require('../models/Comment');
 
 const { errorHandler } = auth;
 
