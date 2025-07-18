@@ -31,7 +31,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
     //to be updated when we connect this to our client
-    origin: ['http://localhost:3000', 'http://localhost:4000'],
+    origin: ['http://localhost:3000', 'http://localhost:4000', 'https://dev-diaries-zeta.vercel.app'],
     credentials: true,
     optionsSuccessStatus: 200
 };
